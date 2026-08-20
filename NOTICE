@@ -1,0 +1,38 @@
+AWS DevOps Agent Demo
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+Licensed under the MIT No Attribution License (MIT-0).
+
+This project includes the following third-party software/licenses:
+
+** React - https://reactjs.org/
+Copyright (c) Meta Platforms, Inc. and affiliates.
+Licensed under the MIT License.
+
+** React DOM - https://reactjs.org/
+Copyright (c) Meta Platforms, Inc. and affiliates.
+Licensed under the MIT License.
+
+** Vite - https://vitejs.dev/
+Copyright (c) 2019-present, Yuxi (Evan) You and Vite contributors.
+Licensed under the MIT License.
+
+** Tailwind CSS - https://tailwindcss.com/
+Copyright (c) Tailwind Labs, Inc.
+Licensed under the MIT License.
+
+** AWS Amplify - https://aws-amplify.github.io/
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+Licensed under the Apache License, Version 2.0.
+
+** AWS CDK - https://aws.amazon.com/cdk/
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+Licensed under the Apache License, Version 2.0.
+
+** TypeScript - https://www.typescriptlang.org/
+Copyright (c) Microsoft Corporation. All rights reserved.
+Licensed under the Apache License, Version 2.0.
+
+** Boto3 / Botocore - https://boto3.amazonaws.com/
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+Licensed under the Apache License, Version 2.0.

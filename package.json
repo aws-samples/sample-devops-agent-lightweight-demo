@@ -1,0 +1,22 @@
+{
+  "name": "aws-devops-agent-demo",
+  "version": "1.0.0",
+  "description": "AWS DevOps Agent demonstration system",
+  "scripts": {
+    "install:all": "npm install && cd portal/frontend && npm install && cd ../..",
+    "setup": "export AWS_REGION=us-east-1 && export CDK_DEFAULT_REGION=us-east-1 && cd cdk && bash setup.sh && source .venv/bin/activate && cdk bootstrap && cdk deploy \"dev/**\" --require-approval never",
+    "verify": "export AWS_REGION=us-east-1 && bash scripts/verify_setup.sh",
+    "cleanup": "export AWS_REGION=us-east-1 && export CDK_DEFAULT_REGION=us-east-1 && cd cdk && source .venv/bin/activate && cdk destroy \"dev/agent\" \"dev/auth\" \"dev/api\" \"dev/frontend\" \"dev/demo\" --force",
+    "build:frontend": "cd portal/frontend && npm run build",
+    "cdk:diff": "export AWS_REGION=us-east-1 && export CDK_DEFAULT_REGION=us-east-1 && cd cdk && source .venv/bin/activate && cdk diff",
+    "cdk:synth": "export AWS_REGION=us-east-1 && export CDK_DEFAULT_REGION=us-east-1 && cd cdk && source .venv/bin/activate && cdk synth",
+    "cdk:bootstrap": "export AWS_REGION=us-east-1 && export CDK_DEFAULT_REGION=us-east-1 && cd cdk && source .venv/bin/activate && cdk bootstrap"
+  },
+  "keywords": [
+    "aws",
+    "devops",
+    "lambda",
+    "demo"
+  ],
+  "license": "MIT-0"
+}
